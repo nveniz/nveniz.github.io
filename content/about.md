@@ -5,7 +5,7 @@ aliases = ["about-us","about-hugo","contact"]
 [ author ]
   name = "nveniz"
 +++
-## Hello and welcome to my small space in the word wide web,
+## Hello and welcome to my small internet space,
 
 I'm a Computer Science that likes to learn/mess around with different technologies in order to achieve technological idependency, I am interested in Systems programming, Networks, Binary exploitation and Penetration testing (since it combines all of them).
 
