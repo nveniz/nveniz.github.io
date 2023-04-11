@@ -13,7 +13,7 @@ I get really excited about learning how software we take for granded works, and 
 
 **Some more things about me:**
  - I use Linux exclusively, started as a way to force my self to learn linux but I ended up enjoying the simplicity, modularity and freedom tha linux offers.
- - I am a privacy advocate and consider technological privacy a fundemental right in todays world.
+ - I am a privacy advocate and consider technological privacy a fundamental right in todays world.
  - C is my favourite programming language due to the power it gives to the programmer to manipulate memory, as I find it easier to understand that languages closer to human language (like Python)
  - I like writting small bash programs to automate daily tasks
  - On my free time I enjoy playing CTFs, HTB and other computer related puzzle games.
