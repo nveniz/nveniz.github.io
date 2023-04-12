@@ -1,38 +1,25 @@
-+++
-title = "About"
-date = "2014-04-09"
-aliases = ["about-us","about-hugo","contact"]
-[ author ]
-  name = "nveniz"
-+++
-### Hello and welcome to my small internet space,
-
-This is a personal site that I plan to use as a blog to write about random computer related topic that I find interesting as well as show case some project that I might work on. 
-
-You can contact me and request my CV on my [personal email](mailto:nveniz01@ucy.ac.cy)
-
-Some more info about me can be found below.
-
 ---
-#### whoami?
+#author: "nveniz"
+title: About
+---
 
+# Linux, CTFs and privacy paranoia
 
-I'm a Computer Science student that likes to learn/mess around with different technologies in order to achieve technological idependency, I am interested in Systems programming, Networks, Binary exploitation and Penetration testing (since it combines all of them).
+Are some thing my friends could tease me about (especially the last one, I will probably write a post about it), no I don't consider myself a "special snowflake" just because I use linux and vim but rather want to encourage people to start using simpler open source software that do one thing but do it well, away from huge corporations that profit on the mass data farming of its users.
 
-I get really excited about learning how software we take for granded works, and personally enjoy minimalistic open source software and tools that are well written and avoid unessesary complexity.
+## ~ $ whoami
 
-**Some more things about me:**
- - I use Linux exclusively, started as a way to force my self to learn linux but I ended up enjoying the simplicity, modularity and freedom that linux offers.
+ - Computer science student, interested in systems programming, networking, binary analysis / exploitation and pen testing
+ - I love linux, started as a way to force my self to learn but I ended up enjoying the simplicity, modularity and freedom that linux offers.
  - I am a privacy advocate and consider technological privacy a fundamental right in todays world.
- - C is my favourite programming language due to the power it gives to the programmer to manipulate memory, as I find it easier to understand that languages closer to human language (like Python)
+ - C is my favourite programming language due to the power it gives to the programmer to manipulate memory.
  - I like writting small bash programs to automate daily tasks
  - On my free time I enjoy playing CTFs, HTB and other computer related puzzle games.
 
 
-**Tech skills that I am confident at:**
- - C programming
- - Automization (bash scripting, ansible)
- - Virtualization (KVM, docker etc.)
- - Systems/Socket programming (in C Linux)
- - System administration/Server deployment
+## Contact
+
+<!--My preferred method of frequent communication (chatting) is XMPP, but you can get it touch with me via email-->
+
+- You can request my CV at my [personal email](mailto:nveniz01@ucy.ac.cy)
 

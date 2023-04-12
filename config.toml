@@ -1,133 +1,73 @@
-baseURL = "https://example.com"
-title   = "nveniz"
+baseurl = "/"
 languageCode = "en-us"
-theme = "hello-friend-ng"
-
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
-
-paginate  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-
-# googleAnalytics = ""
-# disqusShortname = ""
-
-archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "public"
-
-buildDrafts  = false
-buildFuture  = false
-buildExpired = false
-canonifyURLs = true
-
-enableRobotsTXT = true
-enableGitInfo   = false
-enableEmoji     = true
-enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
-disable404     = false
-disableHugoGeneratorInject = true
-
-[permalinks]
-  posts = "/posts/:year/:month/:title/"
-
-[author]
-  name = "nveniz"
-
-[blackfriday]
-  hrefTargetBlank = true
-
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
+theme = "hugo-theme-hello-friend"
+paginate = 5
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+  # dir name of your blog content (default is `content/posts`)
+   contentTypeName = "posts"
+  # "light" or "dark"
+  defaultTheme = "dark"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 5
+  # Enable to show reading time in minutes for posts
+  showReadingTime = true
 
-  # Metadata mostly used in document's head
-  # 
-  description = ""
-  keywords = ""
-  images = [""]
+ 
+[languages]
+  [languages.en]
+    title = "nveniz's site"
+    subtitle = ""
+    
+    keywords = ""
+    copyright = "© nveniz's site"
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "02-01-2006"
+    dateFormatList = "02-01-2006"
+#    [languages.en.params.logo]
+#      logoText = "cd /home/"
+#      logoHomeLink = "/"
+#     or
+#    
+#     path = "/img/your-example-logo.svg"
+#     alt = "Your example logo alt text"
+#
+#    [languages.en.menu]
+#      [[languages.en.menu.main]]
+#        identifier = "about"
+#        name = "About"
+#        url = "/about"
+#      [[languages.en.menu.main]]
+#        identifier = "showcase"
+#        name = "Showcase"
+#        url = "/showcase"
 
-  # Home subtitle of the index page.
-  #
-  homeSubtitle = "Computer science student"
 
-  # Set a background for the homepage
-  # backgroundImage = "assets/images/background.jpg"
 
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  #
-  # gitUrl = ""
+[params.home]
+  title = "nveniz's site"
+  subtitle = "CS student // Linux enthusiast // Programmer"
+  imgPath="/img/pixel-guy-on-pc.png"
+  imgAlt="pixel art guy sitting on pc"
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  #
-  disableReadOtherPosts = false
 
-  # Enable theme toggle
-  # 
-  # This options enables the theme toggle for the theme. 
-  # Per default, this option is off. 
-  # The theme is respecting the prefers-color-scheme of the operating systeme. 
-  # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = true
+ [[params.social]]
+    name = "email"
+    url  = "mailto:nveniz01@ucy.ac.cy"
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/nveniz"
+  [[params.social]]
+    name = "gpg"
+    url  = "gpgfile"
 
-  # Sharing buttons
-  #
-  # There are a lot of buttons preconfigured. If you want to change them,
-  # generate the buttons here: https://sharingbuttons.io
-  # and add them into your own `layouts/partials/sharing-buttons.html`
-  #
-  enableSharingButtons = true
-
-  # Global language menu
-  #
-  # Enables the global language menu.
-  #
-  enableGlobalLanguageMenu = false
-
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  #
-  customCSS = []
-  customJS  = []
-
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  #
-  justifyContent = false # Set "text-align: justify" to .post-content.
-
-  # Custom footer 
-  # If you want, you can easily override the default footer with your own content. 
-  #
-  [params.footer]
-    rss = true
-    trademark = true
-    copyright = false
-    author = true
-
-    topText = []
-    bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>,<a href=\"https://github.com/rhazdon\">Theme</a>"
-    ]
-
-  # Colors for favicons
-  #
-  [params.favicon.color]
-    mask = "#1b1c1d"
-    msapplication = "#1b1c1d"
-    theme = "#1b1c1d"
-
-  [params.logo]
+[params.logo]
     logoMark     = "~"
     logoText     = "$ cd /home/"
     logoHomeLink = "/"
@@ -140,73 +80,26 @@ disableHugoGeneratorInject = true
     # Append the current url pathname to logoText 
     logoCursorPathname = true
 
-  # Commento is more than just a comments widget you can embed — 
-  # it’s a return to the roots of the internet. 
-  # An internet without the tracking and invasions of privacy. 
-  # An internet that is simple and lightweight. 
-  # An internet that is focused on interesting discussions, not ads. 
-  # A better internet.
-  # Uncomment this to enable Commento.
-  #
-  # [params.commento]
-  #   url = ""
-
-  # Uncomment this if you want a portrait on your start page
-  #
-  [params.portrait]
-     path     = "images/penguin_with_knife_black.jpg"
-     alt      = "Portrait"
-     maxWidth = "100px"
-
-  # Social icons
-#  [[params.social]]
-#    name = "twitter"
-#    url  = "https://twitter.com/"
-
- [[params.social]]
-    name = "email"
-    url  = "mailto:nveniz01@ucy.ac.cy"
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/nveniz"
-  [[params.social]]
-    name = "gpg"
-    url  = "gpgfile"
 
 
-#  [[params.social]]
-#    name = "linkedin"
-#    url  = "https://www.linkedin.com/"
 
-#  [[params.social]]
-#    name = "stackoverflow"
-#    url  = "https://www.stackoverflow.com/"
 
-[languages]
-  [languages.en]
-    subtitle  = ""
-    weight    = 1
-   copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC</a>'
-#
-#  [languages.fr]
-#    subtitle  = "Hello Friend NG Theme"
-#    weight    = 2
-#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
 
 [menu]
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "about/"
+    url        = "/about"
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
-    url        = "posts/"
+    url        = "/posts"
   [[menu.main]]
     identifier = "projects"
     name       = "Projects"
-    url        = "projects/"
-  [[menu.main]]
-    identifier = "random"
-    name       = "Random"
-    url        = "random/"
+    url        = "/projects"
+ # [[menu.main]]
+ #   identifier = "random"
+ #   name       = "Random"
+ #   url        = "/random"
