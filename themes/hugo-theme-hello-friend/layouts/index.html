@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article class="post">
+	  <div align=center>
+		<h1 class="post-title">{{ .Site.Params.Home.Title | markdownify }}</h1>
+		{{if .Site.Params.Home.Subtitle }}
+			<p>{{ .Site.Params.Home.Subtitle }}</p>
+		{{ end }}
+
+		{{ if .Site.Params.Home.ImgPath }}
+			<img src="{{ .Site.Params.Home.ImgPath }}" position="center:" style="border-radius: 8px;">
+		{{ end }}
+				<br>
+		{{- with .Site.Params.social }}
+			<div>
+				{{ partial "social-icons.html" . }}
+			</div>
+		{{- end}}
+      		<div class="post-content">
+      			{{ .Content }}
+		</div>
+	  </div>
+	  </article>
+{{ end }}

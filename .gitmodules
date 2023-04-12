@@ -1,0 +1,4 @@
+[submodule "themes/hugo-theme-hello-friend"]
+	path = themes/hugo-theme-hello-friend
+	url = git@github.com:nveniz/hugo-theme-hello-friend.gita
+
