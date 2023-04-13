@@ -101,11 +101,11 @@ disablerss= false
     name       = "Projects"
     url        = "/projects"
 
-  [[menu.main]]
-    identifier = "archive"
-    name       = "Archive"
-    url        = "/archive"
-
+ # [[menu.main]]
+ #   identifier = "archive"
+ #   name       = "Archive"
+ #   url        = "/archive"
+ #
  # [[menu.main]]
  #   identifier = "random"
  #   name       = "Random"
