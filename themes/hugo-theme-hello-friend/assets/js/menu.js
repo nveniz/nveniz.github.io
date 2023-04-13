@@ -52,3 +52,14 @@ desktopMenuTrigger &&
       menuMore.style.right = 0;
     }
   });
+
+//const language = document.getElementsByTagName('html')[0].lang;
+const logo = document.querySelector(".logo__pathname");
+if(logo){
+  window.onload = () => {
+    let path = window.location.pathname.substring(1);
+    //path = path.replace(language+'/','')
+    //path = path.replace('/','')
+    logo.textContent += path.substring(0,path.indexOf('/'));
+  };
+}

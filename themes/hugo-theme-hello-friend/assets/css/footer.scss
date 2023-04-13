@@ -6,7 +6,7 @@
   &__inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto;
     width: 760px;
     max-width: 100%;
@@ -18,6 +18,37 @@
 
   a {
     color: inherit;
+  }
+
+
+ &__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+
+    @media ($tablet) {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+
+    & > *:not(:last-child)::after {
+      content: "•";
+      padding: 0 5px;
+
+      @media ($tablet) {
+          content: "";
+          padding: 0;
+      }
+    }
+
+    & > *:last-child {
+      padding: 0 0px;
+
+      @media ($tablet) {
+          padding: 0;
+      }
+    }
   }
 
   .copyright {
