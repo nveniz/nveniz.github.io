@@ -15,9 +15,9 @@
 				{{ partial "social-icons.html" . }}
 			</div>
 		{{- end}}
-      		<div class="post-content">
+	  </div>
+      		<div class="post-content  {{ if .Params.framed -}}framed{{- end -}}">
       			{{ .Content }}
 		</div>
-	  </div>
 	  </article>
 {{ end }}
