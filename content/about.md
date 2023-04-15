@@ -7,10 +7,10 @@ hidereadtime: true
 
 Are some thing my friends could tease me about (especially the last one, more about it [here](/posts/thoughts-on-privacy)), if I had to describe myself with one word that would be curious since I'm alway trying to understand the how world around us works. I enjoy talking with people and I am constantly reminded that each one of us has a different perspective and ideology in life. 
 
-Below are some of the more "technical" things, if you want to have a talk you can find me on the socials I have listed on the home page, thanks for reading!
+If you want to have a talk you can use the find me using the through the socials that I have listed on the homepage, thanks for reading!
 
 ### ~ $ whoami
-
+Some of the more "technical" things about me:
  - Computer science student, interested in systems programming, networking, binary analysis / exploitation and pen testing
  - I love linux, started as a way to force my self to learn but I ended up enjoying the simplicity, modularity and freedom that linux offers.
  - I am a privacy advocate and consider technological privacy a fundamental right in todays world.
