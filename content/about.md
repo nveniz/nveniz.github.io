@@ -7,7 +7,6 @@ hidereadtime: true
 
 Are some thing my friends could tease me about (especially the last one, more about it [here](/posts/thoughts-on-privacy)), if I had to describe myself with one word that would be curious since I'm alway trying to understand the how world around us works. I enjoy talking with people and I am constantly reminded that each one of us has a different perspective and ideology in life. 
 
-If you want to have a talk you can find me using the through the socials that I have listed on the homepage, thanks for reading!
 
 ### ~ $ whoami
 Some of the more "technical" things about me:
@@ -18,10 +17,9 @@ Some of the more "technical" things about me:
  - I like writting small bash programs to automate daily tasks
  - On my free time I enjoy playing CTFs, HTB and other computer related puzzle games.
 
+---
 
-### Contact
-
+If you want to have a talk you can find me using the through the socials that I have listed below, thanks for reading!
 <!--My preferred method of frequent communication (chatting) is XMPP, but you can get it touch with me via email-->
 
-- You can request my CV at my [personal email](mailto:nveniz01@ucy.ac.cy)
 
