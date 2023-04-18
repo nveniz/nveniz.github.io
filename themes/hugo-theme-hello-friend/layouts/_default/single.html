@@ -53,7 +53,7 @@
     </div>
     {{ if eq .Title "About"}}  
     		{{- with .Site.Params.social }}
-			<div>
+			<div align=center>
 				{{ partial "social-icons.html" . }}
 			</div>
 		{{- end}}
