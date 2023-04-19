@@ -66,7 +66,7 @@ disablerss= false
     url  = "https://github.com/nveniz"
   [[params.social]]
     name = "gpg"
-    url  = "gpgfile"
+    url  = "/nveniz.pub"
 
 [params.logo]
     logoMark     = "~"
